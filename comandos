@@ -1,0 +1,14 @@
+mkir atividade-git
+cd atividade-git
+git init --initial-branch=main
+git config user.name "moisesluc"
+git config user.email "moisesbrats98@gmail.com"
+touch atividade
+git add atividade
+git commit -m "Primeiro commit"
+git remote add origin https://github.com/MoisesLuc/curso-git-embarcatech.git
+git push -u origin main
+touch comandos
+git add comandos
+git commit -m "Segundo commit"
+git push -u origin main https://github.com/MoisesLuc/curso-git-embarcatech.git
